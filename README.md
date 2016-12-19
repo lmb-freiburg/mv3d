@@ -14,8 +14,13 @@ The networks were trained on a subset of the ShapeNet dataset containing 3D mode
 
 For the background experiment we used a subset of the ImageNet validation set (images 00000001 - 00050000). Those should be placed in *data/bg_imagenet/val/ILSVRC2012_preprocessed_val_xxxxxxxx.JPEG*, where xxxxxxxx is an 8-digit image id.
 
-## Code
-- download_data.py - a script for downloading the pre-rendered version of the test and the pre-trained network snapshots. Run it before executing any other code.
+## Usage
+Run *download_data.py* first to download the pre-rendered version of the test and the pre-trained network snapshots. We provide 3 pre-trained networks:
+- **nobg_nodm.py** - RGB input without background -> RGB output without background
+- **nobg_dm.py** - RGB input without background -> RGB-D output without background
+- **bg_nodm.py** - RGB input with background -> RGB output without background
+
+You can run every script in train/test mode by uncommenting the corresponding parts of the main function.
 
 ## License and Citation
 
