@@ -1,10 +1,7 @@
-import sys
 import time
 import os
 
 import realtime_renderer as rtr
-
-sys.path.insert(1, '/home/tatarchm/.local/lib/python2.7/site-packages')
 
 from utils import *
 
@@ -183,8 +180,8 @@ with tf.Session() as sess:
     net.buildModel()
 
     # ---TEST---
-    net.restore()
-    net.test(0)
+    # net.restore()
+    # net.test(0)
 
     # ---TRAIN---
-    # net.train()
+    net.train()
