@@ -3,4 +3,4 @@ Source code accompanying the ECCV'16 paper "Multi-view 3D Models from Single Ima
 
 **Data**
 The networks were trained on a subset of the ShapeNet dataset containing 3D models of cars http://shapenet.cs.stanford.edu/. If you want to reproduce our results, you need to get the models. Follow the download instructions from the official website. Unzipped models should be placed in the 'data/obj_cars' folder using the following structure:
-*/data/obj_cars/<model_id>/{model.obj, model.mtl}*
+*/data/obj_cars/model_id/{model.obj, model.mtl}*
