@@ -3,8 +3,8 @@ from renderer import *
 import os
 import sys
 
-bg_path = "../data/bg_imagenet/val"
-bam_path = "../data/obj_cars"
+bg_path = "data/bg_imagenet/val"
+bam_path = "data/obj_cars"
 
 render_bg = True
 normal_test = True
