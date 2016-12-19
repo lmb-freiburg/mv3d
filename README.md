@@ -21,9 +21,9 @@ For the background experiment we used a subset of the ImageNet validation set (i
 
 All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. When using the code in your research work, please cite the following paper:
 
-    @article{jia2014caffe,
-      Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
-      Journal = {arXiv preprint arXiv:1408.5093},
-      Title = {Caffe: Convolutional Architecture for Fast Feature Embedding},
-      Year = {2014}
+    @InProceedings{TDB16a,
+    author       = "M. Tatarchenko and A. Dosovitskiy and T. Brox",
+    title        = "Multi-view 3D Models from Single Images with a Convolutional Network",
+    booktitle    = "European Conference on Computer Vision (ECCV)",
+    year         = "2016"
     }
