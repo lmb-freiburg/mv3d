@@ -1,4 +1,5 @@
 # mv3d
+![alt tag](https://github.com/mtatarchenko/mv3d/blob/master/thumbnail.png)
 Source code accompanying the ECCV'16 paper "Multi-view 3D Models from Single Images with a Convolutional Network" by M. Tatarchenko, A. Dosovitskiy and T. Brox http://lmb.informatik.uni-freiburg.de/Publications/2016/TDB16a/. The models implemented here are slightly different from those described in the paper, so we do not guarantee both quantitative and qualitative results to be exactly the same.
 
 ## Dependencies
