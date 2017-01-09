@@ -11,8 +11,8 @@ class RealTimeRenderer():
         self.num_iterations = 1000
         self.bg_batch_size = 100
 
-        self.bg_path = "data/bg_imagenet/val"
-        self.bam_path = "data/obj_cars"
+        self.bg_path = "../data/bg_imagenet/val"
+        self.bam_path = "../data/obj_cars"
 
         self.iteration = 0
         self.rend = None

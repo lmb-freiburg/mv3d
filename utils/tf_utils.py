@@ -124,7 +124,7 @@ def rescale_dm(image):
 
 def load_test_set(normal, bg, rad_factor=1000.0):
     print("loading test set...")
-    path = "data"
+    path = "../data"
 
     test_images1 = []
     test_images2 = []

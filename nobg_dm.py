@@ -1,9 +1,9 @@
 import time
 import os
 
-import realtime_renderer as rtr
+import utils.realtime_renderer as rtr
 
-from utils import *
+from utils.tf_utils import *
 
 
 class mv3d():

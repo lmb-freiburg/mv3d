@@ -3,8 +3,8 @@ from renderer import *
 import os
 import sys
 
-bg_path = "data/bg_imagenet/val"
-bam_path = "data/obj_cars"
+bg_path = "../data/bg_imagenet/val"
+bam_path = "../data/obj_cars"
 
 render_bg = True
 normal_test = True
@@ -14,11 +14,11 @@ samples_per_model = 10
 def main(argv=None):
 
     if normal_test is True:
-        models_file = "data/cars_test_normal.txt"
-        output_path = "data/test_normal_rendered"
+        models_file = "../data/cars_test_normal.txt"
+        output_path = "../data/test_normal_rendered"
     else:
-        models_file = "data/cars_test_difficult.txt"
-        output_path = "data/test_difficult_rendered"
+        models_file = "../data/cars_test_difficult.txt"
+        output_path = "../data/test_difficult_rendered"
 
     if render_bg is True:
         output_path = os.path.join(output_path, "bg")

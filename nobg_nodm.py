@@ -1,9 +1,12 @@
 import time
 import os
+import sys
 
-import realtime_renderer as rtr
+sys.path.insert(1, '/home/tatarchm/.local/lib/python2.7/site-packages')
 
-from utils import *
+import utils.realtime_renderer as rtr
+
+from utils.tf_utils import *
 
 
 class mv3d():
