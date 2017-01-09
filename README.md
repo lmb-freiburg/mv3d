@@ -10,7 +10,7 @@ Source code accompanying the ECCV'16 paper "Multi-view 3D Models from Single Ima
 
 ## Data
 The networks were trained on a subset of the ShapeNet dataset containing 3D models of cars http://shapenet.cs.stanford.edu/. If you want to reproduce our results, you need to get the models. Follow the download instructions from the official website. Unzipped models should be placed in the 'data/obj_cars' folder in the following structure:
-*data/obj_cars/model_id/{model.obj, model.mtl}*.
+*data/obj_cars/model_id/{model.obj, model.mtl}*. By default our rendering engine uses the .bam format, so after downloading the models you need to convert them. This can be done by subsequently applying obj2egg and egg2bam utilities, which come as a part of Panda3D package.
 
 For the background experiment we used a subset of the ImageNet validation set. Those should be placed in *data/bg_imagenet/val/ILSVRC2012_preprocessed_val_xxxxxxxx.JPEG*, where xxxxxxxx is an 8-digit image id (in the range 00000001 - 00050000).
 
