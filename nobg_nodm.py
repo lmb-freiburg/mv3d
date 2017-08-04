@@ -2,8 +2,6 @@ import time
 import os
 import sys
 
-sys.path.insert(1, '/home/tatarchm/.local/lib/python2.7/site-packages')
-
 import utils.realtime_renderer as rtr
 
 from utils.tf_utils import *
@@ -187,4 +185,4 @@ with tf.Session() as sess:
     # net.test(0)
 
     # ---TRAIN---
-    net.train()
+    # net.train()
