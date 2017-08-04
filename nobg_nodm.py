@@ -185,4 +185,4 @@ with tf.Session() as sess:
     # net.test(0)
 
     # ---TRAIN---
-    # net.train()
+    net.train()
