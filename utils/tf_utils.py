@@ -145,7 +145,7 @@ def load_test_set(normal, bg, rad_factor=1000.0):
     for dirname, dirnames, filenames in os.walk(path):
         model_name = dirname.split('/')
         if len(model_name) > 4:
-            model_name = model_name[4]
+            model_name = model_name[ len(model_name)-1 ]
             print(model_name)
             for filename in filenames:
                 im = scipy.misc.imread(os.path.join(dirname, filename))
