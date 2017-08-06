@@ -148,7 +148,8 @@ class mv3d():
         total_loss = local_loss / self.test_iter
         print("[i: %s] [test loss: %.6f]" %
               (global_iter, total_loss))
-        log_value(self.writer, total_loss, 'test_loss', global_iter)
+        if self.writer is not None:
+            log_value(self.writer, total_loss, 'test_loss', global_iter)
 
     def train(self):
         optim = tf.train.AdamOptimizer(
